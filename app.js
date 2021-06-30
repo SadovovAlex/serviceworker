@@ -1,6 +1,15 @@
-firebase.initializeApp({
-    messagingSenderId: '132210475600'
-});
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAUdN3-2M73hU0SNFUf9IOGtvc5RVSyVGc",
+    authDomain: "mtspushservice.firebaseapp.com",
+    databaseURL: "https://mtspushservice.firebaseio.com",
+    projectId: "mtspushservice",
+    storageBucket: "mtspushservice.appspot.com",
+    messagingSenderId: "132210475600",
+    appId: "1:132210475600:web:17ebd2b4fde3e8c6"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
 
 
 var bt_register = $('#register');
