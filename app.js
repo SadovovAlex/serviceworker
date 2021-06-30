@@ -1,12 +1,6 @@
   // Your web app's Firebase configuration
   var firebaseConfig = {
-    apiKey: "AIzaSyAUdN3-2M73hU0SNFUf9IOGtvc5RVSyVGc",
-    authDomain: "mtspushservice.firebaseapp.com",
-    databaseURL: "https://mtspushservice.firebaseio.com",
-    projectId: "mtspushservice",
-    storageBucket: "mtspushservice.appspot.com",
     messagingSenderId: "132210475600",
-    appId: "1:132210475600:web:17ebd2b4fde3e8c6"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
@@ -191,7 +185,7 @@ function getToken() {
 
 
 function sendNotification(notification) {
-    var key = 'AAAAHshbwlA:APA91bGe2h_ESLRXRz_9hxlQM-Fmg4CCrvmvWlG_6wn7tqPBwbGwRe4FkxFD3_QSpWzu4dbRYjKefjebE0tEc-6pDyDbTJA5WzNO1-n5BGomNtX5WHhXpZBqeF-DJDOywFJ6mAA5Z-Z7';
+    var key = 'AAAAHshbwlA:APA91bFynxRm0EqGJFZerA74HaV3K5S7OmwSF3W6v5oXp7CblQDCgfq69hbck7-92gGQfUAkGdCS5VZFWHYob-oKq9BzBpMiGl4gewG1lQDnliiadBUYes5Vli4MsRRwZbvcJ1pFlJ8f';
 
     console.log('Send notification', notification);
 
