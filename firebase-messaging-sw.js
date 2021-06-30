@@ -1,9 +1,15 @@
-importScripts('https://www.gstatic.com/firebasejs/3.7.2/firebase-app.js');
-importScripts('https://www.gstatic.com/firebasejs/3.7.2/firebase-messaging.js');
-
-firebase.initializeApp({
-  messagingSenderId: '813626303653'
-});
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAUdN3-2M73hU0SNFUf9IOGtvc5RVSyVGc",
+    authDomain: "mtspushservice.firebaseapp.com",
+    databaseURL: "https://mtspushservice.firebaseio.com",
+    projectId: "mtspushservice",
+    storageBucket: "mtspushservice.appspot.com",
+    messagingSenderId: "132210475600",
+    appId: "1:132210475600:web:17ebd2b4fde3e8c6"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
 
 const messaging = firebase.messaging();
 
