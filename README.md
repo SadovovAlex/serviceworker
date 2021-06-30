@@ -5,6 +5,6 @@ FCM push service
 
 https://sadovovalex.github.io/serviceworker/
 
-scan url from phone browser
-![image](https://user-images.githubusercontent.com/14030285/123969906-53a26800-d9c1-11eb-9191-e76e802ae48e.png)
+# scan url from phone browser
 
+![qrcode_sadovovalex github io](https://user-images.githubusercontent.com/14030285/123970579-e511da00-d9c1-11eb-93ed-036e7a147ee6.png)
