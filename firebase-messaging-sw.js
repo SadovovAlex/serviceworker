@@ -1,4 +1,7 @@
-  // Your web app's Firebase configuration
+importScripts('https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js');
+importScripts('https://www.gstatic.com/firebasejs/3.7.2/firebase-messaging.js');
+
+// Your web app's Firebase configuration
   var firebaseConfig = {
     apiKey: "AIzaSyAUdN3-2M73hU0SNFUf9IOGtvc5RVSyVGc",
     authDomain: "mtspushservice.firebaseapp.com",
